@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name = Suspend
+Comment = Stop all operations and suspend
+Exec = /opt/extras.ubuntu.com/power-commands/bin/power suspend
+Icon = sleep
+Terminal = false
+Type = Application
+StartupNotify = true
+Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+Name[es] = Suspender
+Name[fr] = Veille
+Comment[es] = Suspender
+Comment[fr] = Mettre en veille

@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name = Screensaver
+_Comment = Start the screensaver
+Exec = gnome-screensaver-command --activate
+Icon = screensaver
+Terminal = false
+Type = Application
+StartupNotify = true
+Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+$Name[es] = _('Screensaver')
+$Comment[es] = _('Start the screensaver')
+$Name[fr] = _('Screensaver')
+$Comment[fr] = _('Start the screensaver')
+

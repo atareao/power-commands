@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name = Log Out
+Comment = Log out without prompt
+Exec = gnome-session-quit --logout --no-prompt
+Icon = gnome-logout
+Terminal = false
+Type = Application
+StartupNotify = true
+Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+Name[es] = Salir de la sesión
+Name[fr] = Log Out
+Comment[es] = Salir de la sesión sin preguntar
+Comment[fr] = Log out

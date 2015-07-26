@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name = Hibernate
+Comment = Put in hibernation
+Exec = /opt/extras.ubuntu.com/power-commands/bin/power hibernate
+Icon = sleep
+Terminal = false
+Type = Application
+StartupNotify = true
+Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+Name[es] = Hibernar
+Name[fr] = Hiberner
+Comment[es] = Hibernar
+Comment[fr] = Mettre en hibernation

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name = Shutdown
+Comment = Exit session and shutdown
+Exec = /opt/extras.ubuntu.com/power-commands/bin/power shutdown
+Icon = exit
+Terminal = false
+Type = Application
+StartupNotify = true
+Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+Name[es] = Apagar
+Name[fr] = Éteindre
+Comment[es] = Salir de la sesión y apagar
+Comment[fr] = Éteindre

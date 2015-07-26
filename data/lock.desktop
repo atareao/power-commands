@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name = Lock
+Comment = Lock with the screensaver
+Exec = gnome-screensaver-command --lock
+Icon = lock
+Terminal = false
+Type = Application
+StartupNotify = true
+Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+Name[es] = Bloquear
+Name[fr] = Lock
+Comment[es] = Bloquear con el salvapantallas
+Comment[fr] = Lock with the screensaver

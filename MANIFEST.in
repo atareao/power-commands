@@ -1,0 +1,4 @@
+include MANIFEST.in
+include data/*
+include bin/*
+include template1/*

@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
+"POT-Creation-Date: 2013-11-02 20:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:12
+msgid "Shutdown"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:13
+msgid "Exit session and shutdown"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:12
+msgid "Restart"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:13
+msgid "Exit session and restart"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:12
+msgid "Suspend"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:13
+msgid "Stop all operations and suspend"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:12
+msgid "Lock"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:13
+msgid "Lock with the screensaver"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:12
+msgid "Hibernate"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:13
+msgid "Put in hibernation"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:12
+msgid "Screensaver"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:13
+msgid "Start the screensaver"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:12
+msgid "Log Out"
+msgstr ""
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:13
+msgid "Log out without prompt"
+msgstr ""

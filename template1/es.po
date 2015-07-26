@@ -1,0 +1,80 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: power-commands 0.1.5\n"
+"Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
+"POT-Creation-Date: 2013-11-02 20:42+0100\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:12
+msgid "Shutdown"
+msgstr "Apagar"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/shutdown.desktop.in:13
+msgid "Exit session and shutdown"
+msgstr "Salir de la sesión y apagar"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:12
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/restart.desktop.in:13
+msgid "Exit session and restart"
+msgstr "Salir de la sesión y reiniciar"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:12
+msgid "Suspend"
+msgstr "Suspender"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/suspend.desktop.in:13
+msgid "Stop all operations and suspend"
+msgstr "Suspender"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:12
+msgid "Lock"
+msgstr "Bloquear"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/lock.desktop.in:13
+msgid "Lock with the screensaver"
+msgstr "Bloquear con el salvapantallas"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:12
+msgid "Hibernate"
+msgstr "Hibernar"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/hibernate.desktop.in:13
+msgid "Put in hibernation"
+msgstr "Hibernar"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:12
+msgid "Screensaver"
+msgstr "Salvapantallas"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/screensaver-start.desktop.in:13
+#, fuzzy
+msgid "Start the screensaver"
+msgstr "Iniciar el salvapantallas"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:10
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:12
+msgid "Log Out"
+msgstr "Salir de la sesión"
+
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:11
+#: /home/atareao_s/Copy/PROGRAMACION/Python/saucy/power-commands/logout.desktop.in:13
+msgid "Log out without prompt"
+msgstr "Salir de la sesión sin preguntar"
