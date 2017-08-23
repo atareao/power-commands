@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name = Shutdown
 Comment = Exit session and shutdown
+Keywords = Power Commands
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power shutdown
 Icon = pc-shutdown
 Terminal = false
@@ -11,3 +12,5 @@ Name[fr] = Éteindre
 Name[es] = Apagar
 Comment[fr] = Éteindre
 Comment[es] = Salir de la sesión y apagar
+Keywords[fr] = Power Commands
+Keywords[es] = Power Commands

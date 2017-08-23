@@ -13,4 +13,6 @@ $Name[fr] = _('Kill')
 $Name[es] = _('Kill')
 $Comment[fr] = _('Allows you to kill a misbehaving application')
 $Comment[es] = _('Allows you to kill a misbehaving application')
+$Keywords[fr] = _('Power Commands')
+$Keywords[es] = _('Power Commands')
 

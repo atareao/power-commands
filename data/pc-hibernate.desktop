@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name = Hibernate
 Comment = Put in hibernation
+Keywords = Power Commands
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power hibernate
 Icon = pc-hibernate
 Terminal = false
@@ -11,3 +12,5 @@ Name[fr] = Hiberner
 Name[es] = Hibernar
 Comment[fr] = Mettre en hibernation
 Comment[es] = Hibernar
+Keywords[fr] = Power Commands
+Keywords[es] = Power Commands

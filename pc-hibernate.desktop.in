@@ -1,6 +1,7 @@
 [Desktop Entry]
 _Name = Hibernate
 _Comment = Put in hibernation
+_Keywords = Power Commands
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power hibernate
 Icon = pc-hibernate
 Terminal = false
@@ -11,4 +12,6 @@ $Name[es] = _('Hibernate')
 $Comment[es] = _('Put in hibernation')
 $Name[fr] = _('Hibernate')
 $Comment[fr] = _('Put in hibernation')
+$Keywords[fr] = _('Power Commands')
+$Keywords[es] = _('Power Commands')
 

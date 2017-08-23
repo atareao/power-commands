@@ -1,8 +1,8 @@
-power-commands (0.2.2-0extras17.10.0) zesty; urgency=medium
+power-commands (0.2.2-0extras17.10.1) zesty; urgency=medium
 
   * keywords
 
- -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 23 Aug 2017 12:31:11 +0200
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 23 Aug 2017 12:33:26 +0200
 
 power-commands (0.2.1-0extras17.10.2) zesty; urgency=medium
 

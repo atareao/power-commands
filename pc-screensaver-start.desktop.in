@@ -12,4 +12,6 @@ $Name[es] = _('Screensaver')
 $Comment[es] = _('Start the screensaver')
 $Name[fr] = _('Screensaver')
 $Comment[fr] = _('Start the screensaver')
+$Keywords[fr] = _('Power Commands')
+$Keywords[es] = _('Power Commands')
 

@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name = Restart
 Comment = Exit session and restart
+Keywords = Power Commands
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power restart
 Icon = pc-restart
 Terminal = false
@@ -11,3 +12,5 @@ Name[fr] = Redémarrer
 Name[es] = Reiniciar
 Comment[fr] = Redémarrer
 Comment[es] = Salir de la sesión y reiniciar
+Keywords[fr] = Power Commands
+Keywords[es] = Power Commands

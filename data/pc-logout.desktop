@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name = Log Out
 Comment = Log out without prompt
+Keywords = Power Commands
 Exec = gnome-session-quit --logout --no-prompt
 Icon = pc-logout
 Terminal = false
@@ -11,3 +12,5 @@ Name[fr] = Log Out
 Name[es] = Salir de la sesión
 Comment[fr] = Log out
 Comment[es] = Salir de la sesión sin preguntar
+Keywords[fr] = Power Commands
+Keywords[es] = Power Commands

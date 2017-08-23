@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name = Kill
 Comment = Allows you to kill a misbehaving application
+Keywords = Power Commands
 Exec = xkill
 Icon = pc-kill
 Terminal = false
@@ -12,3 +13,5 @@ Name[fr] = Kill
 Name[es] = Kill
 Comment[fr] = Allows you to kill a misbehaving application
 Comment[es] = Allows you to kill a misbehaving application
+Keywords[fr] = Power Commands
+Keywords[es] = Power Commands

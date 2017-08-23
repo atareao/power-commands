@@ -12,4 +12,6 @@ $Name[es] = _('Lock')
 $Comment[es] = _('Lock with the screensaver')
 $Name[fr] = _('Lock')
 $Comment[fr] = _('Lock with the screensaver')
+$Keywords[fr] = _('Power Commands')
+$Keywords[es] = _('Power Commands')
 

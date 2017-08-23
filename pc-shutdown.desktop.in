@@ -12,4 +12,6 @@ $Name[es] = _('Shutdown')
 $Comment[es] = _('Exit session and shutdown')
 $Name[fr] = _('Shutdown')
 $Comment[fr] = _('Exit session and shutdown')
+$Keywords[fr] = _('Power Commands')
+$Keywords[es] = _('Power Commands')
 

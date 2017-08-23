@@ -12,4 +12,6 @@ $Name[es] = _('Log Out')
 $Comment[es] = _('Log out without prompt')
 $Name[fr] = _('Log Out')
 $Comment[fr] = _('Log out without prompt')
+$Keywords[fr] = _('Power Commands')
+$Keywords[es] = _('Power Commands')
 
