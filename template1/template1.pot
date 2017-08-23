@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
-"POT-Creation-Date: 2017-08-23 11:07+0200\n"
+"POT-Creation-Date: 2017-08-23 12:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,12 +87,17 @@ msgstr ""
 msgid "Start the screensaver"
 msgstr ""
 
-#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:10
-#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:12
+#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:11
+#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:13
 msgid "Suspend"
 msgstr ""
 
-#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:11
-#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:13
+#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:12
+#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:14
 msgid "Stop all operations and suspend"
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:15
+#: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:16
+msgid "Power Commands"
 msgstr ""

@@ -1,8 +1,9 @@
 [Desktop Entry]
 _Name = Shutdown
 _Comment = Exit session and shutdown
+_Keywords = Power Commands
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power shutdown
-Icon = exit
+Icon = pc-shutdown
 Terminal = false
 Type = Application
 StartupNotify = true

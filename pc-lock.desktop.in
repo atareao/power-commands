@@ -1,8 +1,9 @@
 [Desktop Entry]
 _Name = Lock
 _Comment = Lock with the screensaver
+_Keywords = Power Commands
 Exec = gnome-screensaver-command --lock
-Icon = lock
+Icon = pc-lock
 Terminal = false
 Type = Application
 StartupNotify = true

@@ -2,7 +2,7 @@
 _Name = Hibernate
 _Comment = Put in hibernation
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power hibernate
-Icon = sleep
+Icon = pc-hibernate
 Terminal = false
 Type = Application
 StartupNotify = true

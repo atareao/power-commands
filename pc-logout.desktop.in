@@ -1,8 +1,9 @@
 [Desktop Entry]
 _Name = Log Out
 _Comment = Log out without prompt
+_Keywords = Power Commands
 Exec = gnome-session-quit --logout --no-prompt
-Icon = gnome-logout
+Icon = pc-logout
 Terminal = false
 Type = Application
 StartupNotify = true

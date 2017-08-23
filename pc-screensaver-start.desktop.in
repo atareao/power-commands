@@ -1,8 +1,9 @@
 [Desktop Entry]
 _Name = Screensaver
 _Comment = Start the screensaver
+_Keywords = Power Commands
 Exec = gnome-screensaver-command --activate
-Icon = screensaver
+Icon = pc-screensaver
 Terminal = false
 Type = Application
 StartupNotify = true

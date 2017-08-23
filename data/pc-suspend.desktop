@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name = Suspend
 Comment = Stop all operations and suspend
+Keywords = Power Commands
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power suspend
-Icon = pc-shutdown
+Icon = pc-suspend
 Terminal = false
 Type = Application
 StartupNotify = true
@@ -11,3 +12,5 @@ Name[fr] = Veille
 Name[es] = Suspender
 Comment[fr] = Mettre en veille
 Comment[es] = Suspender
+Keywords[fr] = Power Commands
+Keywords[es] = Power Commands
