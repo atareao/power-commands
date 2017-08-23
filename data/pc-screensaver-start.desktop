@@ -2,7 +2,7 @@
 Name = Screensaver
 Comment = Start the screensaver
 Exec = gnome-screensaver-command --activate
-Icon = screensaver
+Icon = pc-screensaver
 Terminal = false
 Type = Application
 StartupNotify = true

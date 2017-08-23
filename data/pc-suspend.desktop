@@ -2,7 +2,7 @@
 Name = Suspend
 Comment = Stop all operations and suspend
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power suspend
-Icon = sleep
+Icon = pc-shutdown
 Terminal = false
 Type = Application
 StartupNotify = true

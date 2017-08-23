@@ -19,6 +19,7 @@ import codecs
 
 DATA_FILES = [
     ('/opt/extras.ubuntu.com/power-commands/bin', glob.glob('bin/*')),
+    ('/usr/share/icons/hicolor/scalable/apps', glob.glob('data/icons/*')),
     ('/usr/share/applications', glob.glob('data/*'))
 ]
 

@@ -2,7 +2,7 @@
 Name = Log Out
 Comment = Log out without prompt
 Exec = gnome-session-quit --logout --no-prompt
-Icon = gnome-logout
+Icon = pc-logout
 Terminal = false
 Type = Application
 StartupNotify = true

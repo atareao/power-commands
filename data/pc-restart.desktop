@@ -2,7 +2,7 @@
 Name = Restart
 Comment = Exit session and restart
 Exec = /opt/extras.ubuntu.com/power-commands/bin/power restart
-Icon = reload
+Icon = pc-restart
 Terminal = false
 Type = Application
 StartupNotify = true

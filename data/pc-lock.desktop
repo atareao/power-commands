@@ -2,7 +2,7 @@
 Name = Lock
 Comment = Lock with the screensaver
 Exec = gnome-screensaver-command --lock
-Icon = lock
+Icon = pc-lock
 Terminal = false
 Type = Application
 StartupNotify = true

@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name = Kill
 Comment = Allows you to kill a misbehaving application
-Exec = /opt/extras.ubuntu.com/power-commands/bin/power kill
-Icon = gnome-panel-force-quit
+Exec = xkill
+Icon = pc-kill
 Terminal = false
 Type = Application
 StartupNotify = true

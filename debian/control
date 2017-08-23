@@ -9,5 +9,6 @@ Homepage: http://www.atareao.es
 Package: power-commands
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends},
-	consolekit
+	consolekit,
+	gnome-screensaver
 Description: Commands to shutdown PC
