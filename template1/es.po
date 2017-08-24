@@ -35,7 +35,7 @@ msgstr "Salir de la sesión y reiniciar"
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:16
 msgid "Power Commands"
-msgstr ""
+msgstr "Power Commands"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:13
@@ -60,12 +60,12 @@ msgstr "Salir de la sesión sin preguntar"
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:13
 msgid "Kill"
-msgstr ""
+msgstr "Matar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:14
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:15
 msgid "Allows you to kill a misbehaving application"
-msgstr ""
+msgstr "Permite matar una aplicación"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:13
@@ -106,4 +106,4 @@ msgstr "Suspender"
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:14
 msgid "Stop all operations and suspend"
-msgstr "Suspender"
+msgstr "Para todas las operaciones y suspende"

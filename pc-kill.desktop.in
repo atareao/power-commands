@@ -8,11 +8,9 @@ Terminal = false
 Type = Application
 StartupNotify = true
 Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
-Name[es] = Matar
 $Name[fr] = _('Kill')
 $Name[es] = _('Kill')
 $Comment[fr] = _('Allows you to kill a misbehaving application')
 $Comment[es] = _('Allows you to kill a misbehaving application')
 $Keywords[fr] = _('Power Commands')
 $Keywords[es] = _('Power Commands')
-
