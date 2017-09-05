@@ -2,7 +2,7 @@
 _Name = Screensaver
 _Comment = Start the screensaver
 _Keywords = Power Commands
-Exec = gnome-screensaver-command --activate
+Exec = /opt/extras.ubuntu.com/power-commands/bin/power logout
 Icon = pc-screensaver
 Terminal = false
 Type = Application

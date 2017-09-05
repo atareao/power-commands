@@ -11,6 +11,6 @@ Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
 Name[fr] = Veille
 Name[es] = Suspender
 Comment[fr] = Mettre en veille
-Comment[es] = Suspender
+Comment[es] = Para todas las operaciones y suspende
 Keywords[fr] = Power Commands
 Keywords[es] = Power Commands

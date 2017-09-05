@@ -2,7 +2,7 @@
 _Name = Lock
 _Comment = Lock with the screensaver
 _Keywords = Power Commands
-Exec = gnome-screensaver-command --lock
+Exec = /opt/extras.ubuntu.com/power-commands/bin/power lock
 Icon = pc-lock
 Terminal = false
 Type = Application

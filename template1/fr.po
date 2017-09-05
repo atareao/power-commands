@@ -1,9 +1,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: power-commands 0.2.2\n"
+"Project-Id-Version: power-commands 0.2.3\n"
 "Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
-"POT-Creation-Date: 2017-08-23 12:33+0200\n"
+"POT-Creation-Date: 2017-09-05 11:50+0200\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,8 +24,8 @@ msgstr "Redémarrer"
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:16
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:16
+#: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:16
-#: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:17
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:16
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:15
@@ -57,13 +57,13 @@ msgstr ""
 msgid "Log out without prompt"
 msgstr "Log out"
 
+#: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:12
-#: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:13
 msgid "Kill"
 msgstr ""
 
+#: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:13
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:14
-#: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:15
 msgid "Allows you to kill a misbehaving application"
 msgstr ""
 

@@ -2,7 +2,7 @@
 _Name = Log Out
 _Comment = Log out without prompt
 _Keywords = Power Commands
-Exec = gnome-session-quit --logout --no-prompt
+Exec = /opt/extras.ubuntu.com/power-commands/bin/power logout
 Icon = pc-logout
 Terminal = false
 Type = Application
