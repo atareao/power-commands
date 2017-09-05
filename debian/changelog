@@ -1,8 +1,8 @@
-power-commands (0.3.0-0extras17.10.0) zesty; urgency=medium
+power-commands (0.3.0-0extras17.10.1) zesty; urgency=medium
 
   * Added support to MATE
 
- -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 05 Sep 2017 11:51:04 +0200
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 05 Sep 2017 13:35:31 +0200
 
 power-commands (0.2.3-0extras17.10.0) zesty; urgency=medium
 

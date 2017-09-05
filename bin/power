@@ -24,6 +24,7 @@ case $1 in
 				gnome-session-quit --logout --no-prompt
 				;;
 		esac
+		;;
 	lock)
 		case $DESKTOP_SESSION in
 			mate)
@@ -33,6 +34,7 @@ case $1 in
 				gnome-screensaver-command --lock
 				;;
 		esac
+		;;
 	screensaver)
 		case $DESKTOP_SESSION in
 			mate)
@@ -42,4 +44,5 @@ case $1 in
 				gnome-screensaver-command --activate
 				;;
 		esac
+		;;
 esac
