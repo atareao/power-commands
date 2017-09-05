@@ -35,3 +35,5 @@ $ sudo add-apt-repository ppa:atareao/atareao
 $ sudo apt-get update
 $ sudo apt-get install power-commands
 ```
+
+You can get more information in spanish in [atareao.es](https://www.atareao.es/apps/power-commands-o-como-mejorar-tu-productividad-en-ubuntu/)
