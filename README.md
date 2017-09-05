@@ -11,6 +11,8 @@ Power Commands are a set of launcher that help you to run elementary tasks in yo
 * **Lock**. Lock the device. You must enter the password to re-enter in the current session.
 * **Kill**. Kill a graphical application. You must see a cross, click with it in the app you want to end.
 
+![Sample](sample.png)
+
 ## Compatibility
 
 **Power Commands** works with these desktop environment,
