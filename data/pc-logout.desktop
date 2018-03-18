@@ -2,7 +2,7 @@
 Name = Log Out
 Comment = Log out without prompt
 Keywords = Power Commands
-Exec = /opt/extras.ubuntu.com/power-commands/bin/power logout
+Exec = power-commands logout
 Icon = pc-logout
 Terminal = false
 Type = Application

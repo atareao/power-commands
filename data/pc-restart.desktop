@@ -2,7 +2,7 @@
 Name = Restart
 Comment = Exit session and restart
 Keywords = Power Commands
-Exec = /opt/extras.ubuntu.com/power-commands/bin/power restart
+Exec = power-commands restart
 Icon = pc-restart
 Terminal = false
 Type = Application

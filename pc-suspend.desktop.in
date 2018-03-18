@@ -2,7 +2,7 @@
 _Name = Suspend
 _Comment = Stop all operations and suspend
 _Keywords = Power Commands
-Exec = /opt/extras.ubuntu.com/power-commands/bin/power suspend
+Exec = power-commands suspend
 Icon = pc-suspend
 Terminal = false
 Type = Application

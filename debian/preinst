@@ -1,9 +1,17 @@
 #!/bin/bash
 echo $XDG_CURRENT_DESKTOP
 case $XDG_CURRENT_DESKTOP in
+    X-Cinnamon)
+        echo 'Installing cinnamon-screensaver'
+        apt install cinnamon-screensaver
+        ;;
     MATE)
         echo 'Installing mate-screensaver'
         apt install mate-screensaver
+        ;;
+    ubuntu:GNOME)
+        echo 'Installing gnome-screensaver'
+        apt install gnome-screensaver
         ;;
     GNOME)
         echo 'Installing gnome-screensaver'

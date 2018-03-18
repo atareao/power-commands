@@ -17,8 +17,11 @@ Power Commands are a set of launcher that help you to run elementary tasks in yo
 
 **Power Commands** works with these desktop environment,
 
+* Budgie
+* Cinnamon
 * GNOME
 * MATE
+* Unity
 
 ## Download
 

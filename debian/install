@@ -1,0 +1,4 @@
+bin/* /usr/bin
+debian/changelog /usr/share/power-commands
+data/*.desktop /usr/share/applications
+data/icons/*.svg /usr/share/icons/hicolor/scalable/apps

@@ -2,7 +2,7 @@
 _Name = Shutdown
 _Comment = Exit session and shutdown
 _Keywords = Power Commands
-Exec = /opt/extras.ubuntu.com/power-commands/bin/power shutdown
+Exec = power-commands shutdown
 Icon = pc-shutdown
 Terminal = false
 Type = Application

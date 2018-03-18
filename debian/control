@@ -2,12 +2,21 @@ Source: power-commands
 Section: utils
 Priority: extra
 Maintainer: Lorenzo Carbonell Cerezo <lorenzo.carbonell.cerezo@gmail.com>
-Build-Depends: debhelper (>= 8), python, python-distutils-extra, python-polib
-Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
 Homepage: http://www.atareao.es
 
 Package: power-commands
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends},
-	consolekit
-Description: Commands to shutdown PC
+	python3,
+	python3-gi,
+	gir1.2-gtk-3.0,
+	dbus,
+	x11-utils
+Description: Commands to control your PC
+ This app provides one tool and a set of desktop lauchers to control your
+ personal computer. You can suspend, reboot, shutdown, hibernate your computer.
+ Besides you can close or lock your session. And you can kill a running app and
+ start the screensaver.
+

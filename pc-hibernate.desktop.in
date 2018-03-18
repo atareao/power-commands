@@ -2,7 +2,7 @@
 _Name = Hibernate
 _Comment = Put in hibernation
 _Keywords = Power Commands
-Exec = /opt/extras.ubuntu.com/power-commands/bin/power hibernate
+Exec = power-commands hibernate
 Icon = pc-hibernate
 Terminal = false
 Type = Application

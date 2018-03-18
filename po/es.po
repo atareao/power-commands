@@ -1,31 +1,72 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: power-commands 0.3.0\n"
 "Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
-"POT-Creation-Date: 2017-09-05 11:50+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"POT-Creation-Date: 2018-03-18 15:12+0100\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:75
+#, python-brace-format
+msgid "You have to install these package: {0}"
+msgstr "Tienes que instalar estos paquetes: {0}"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:78
+#, python-brace-format
+msgid "You have to install this package: {0}"
+msgstr "Tienes que instalar este paquete: {0}"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:217
+msgid "usage: %prog [options]"
+msgstr "uso: %prog [opciones]"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:223
+msgid "show this help and exit."
+msgstr "muestra esta ayuda y sale."
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:228
+msgid "shutdown."
+msgstr "Apagar"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:233
+msgid "hibernate"
+msgstr "Hibernar"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:238
+msgid "suspend"
+msgstr "Suspender"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:243
+msgid "restart"
+msgstr "Reiniciar"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:248
+msgid "Kill an application"
+msgstr "Mata una aplicación"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:253
+msgid "logout"
+msgstr "salir"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:258
+msgid "lock the session"
+msgstr "bloquea la sesión"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:263
+msgid "Activate the screensaver"
+msgstr "Iniciar el salvapantallas"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:13
 msgid "Restart"
-msgstr ""
+msgstr "Reiniciar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:14
 msgid "Exit session and restart"
-msgstr ""
+msgstr "Salir de la sesión y reiniciar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:16
@@ -44,74 +85,75 @@ msgstr ""
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:16
 msgid "Power Commands"
-msgstr ""
+msgstr "Power Commands"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:13
 msgid "Shutdown"
-msgstr ""
+msgstr "Apagar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:14
 msgid "Exit session and shutdown"
-msgstr ""
+msgstr "Salir de la sesión y apagar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:13
 msgid "Log Out"
-msgstr ""
+msgstr "Salir de la sesión"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:14
 msgid "Log out without prompt"
-msgstr ""
+msgstr "Salir de la sesión sin preguntar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:12
 msgid "Kill"
-msgstr ""
+msgstr "Matar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:13
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:14
 msgid "Allows you to kill a misbehaving application"
-msgstr ""
+msgstr "Permite matar una aplicación"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:13
 msgid "Hibernate"
-msgstr ""
+msgstr "Hibernar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:14
 msgid "Put in hibernation"
-msgstr ""
+msgstr "Hibernar"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:13
 msgid "Lock"
-msgstr ""
+msgstr "Bloquear"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:14
 msgid "Lock with the screensaver"
-msgstr ""
+msgstr "Bloquear con el salvapantallas"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:13
 msgid "Screensaver"
-msgstr ""
+msgstr "Salvapantallas"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:14
+#, fuzzy
 msgid "Start the screensaver"
-msgstr ""
+msgstr "Iniciar el salvapantallas"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:13
 msgid "Suspend"
-msgstr ""
+msgstr "Suspender"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:14
 msgid "Stop all operations and suspend"
-msgstr ""
+msgstr "Para todas las operaciones y suspende"

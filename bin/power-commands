@@ -1,0 +1,289 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# This file is part of Power Commands
+#
+# Copyright (C) 2010-2018 Lorenzo Carbonell<lorenzo.carbonell.cerezo@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import gi
+try:
+    gi.require_version('Gtk', '3.0')
+except Exception as e:
+    print(e)
+    exit(-1)
+from gi.repository import Gtk
+import os
+import re
+import subprocess
+import sys
+import locale
+import gettext
+import shlex
+from optparse import OptionParser
+
+
+try:
+    current_locale, encoding = locale.getdefaultlocale()
+    language = gettext.translation(
+        'power-commands',
+        os.path.join('/usr/share/', 'locale-langpack'),
+        [current_locale])
+    language.install()
+    print(language)
+    if sys.version_info[0] == 3:
+        _ = language.gettext
+    else:
+        _ = language.ugettext
+except Exception as e:
+    print(e)
+    _ = str
+
+
+def test_if_apps():
+    de = get_desktop_environment()
+    packages_not_installed = []
+    if de == 'mate':
+        if not is_package_installed('mate-session'):
+            packages_not_installed.append('mate-session')
+        if not is_package_installed('mate-screensaver'):
+            packages_not_installed.append('gnome-screensaver')
+    elif de == 'cinnamon':
+        if not is_package_installed('cinnamon-session'):
+            packages_not_installed.append('cinnamon-session')
+        if not is_package_installed('cinnamon-screensaver'):
+            packages_not_installed.append('cinnamon-screensaver')
+    elif de in ['budgie-desktop', 'gnome', 'unity']:
+        if not is_package_installed('gnome-session-bin'):
+            packages_not_installed.append('gnome-session-bin')
+        if not is_package_installed('gnome-screensaver'):
+            packages_not_installed.append('gnome-screensaver')
+    if len(packages_not_installed) > 0:
+        if len(packages_not_installed) > 1:
+            msg = _('You have to install these package: {0}'.format(
+                ', '.join(packages_not_installed)))
+        else:
+            msg = _('You have to install this package: {0}'.format(
+                ''.join(packages_not_installed)))
+        messagedialog('Power Commands', msg)
+
+
+def is_package_installed(package_name):
+    command = 'dpkg-query --show --showformat="${db:Status-Status}\n" "%s"' % (
+        package_name)
+    po = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE,
+                          stderr=subprocess.PIPE, shell=False)
+    out, err = po.communicate()
+    return_code = po.wait()
+    if return_code == 0:
+        return True
+    return False
+
+
+def run(command):
+    po = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE,
+                          stderr=subprocess.PIPE, shell=False)
+    out, err = po.communicate()
+
+
+def is_running(process):
+    # From http://www.bloggerpolis.com/2011/05/\
+    # how-to-check-if-a-process-is-running-using-python/
+    # and http://richarddingwall.name/2009/06/18/\
+    # windows-equivalents-of-ps-and-kill-commands/
+    try:  # Linux/Unix
+        s = subprocess.Popen(["ps", "axw"], stdout=subprocess.PIPE)
+    except Exception as e:  # Windows
+        print(e)
+        s = subprocess.Popen(["tasklist", "/v"], stdout=subprocess.PIPE)
+    for x in s.stdout:
+        if re.search(process, x.decode()):
+            return True
+    return False
+
+
+def get_desktop_environment():
+    desktop_session = os.environ.get("DESKTOP_SESSION")
+    # easier to match if we doesn't have  to deal with caracter cases
+    if desktop_session is not None:
+        desktop_session = desktop_session.lower()
+        if desktop_session in ["gnome", "unity", "cinnamon", "mate",
+                               "budgie-desktop", "xfce4", "lxde", "fluxbox",
+                               "blackbox", "openbox", "icewm", "jwm",
+                               "afterstep", "trinity", "kde"]:
+            return desktop_session
+        # ## Special cases ##
+        # Canonical sets $DESKTOP_SESSION to Lubuntu rather than
+        # LXDE if using LXDE.
+        # There is no guarantee that they will not do the same with
+        # the other desktop environments.
+        elif "xfce" in desktop_session or\
+                desktop_session.startswith("xubuntu"):
+            return "xfce4"
+        elif desktop_session.startswith("ubuntu"):
+            return "unity"
+        elif desktop_session.startswith("lubuntu"):
+            return "lxde"
+        elif desktop_session.startswith("kubuntu"):
+            return "kde"
+        elif desktop_session.startswith("razor"):  # e.g. razorkwin
+            return "razor-qt"
+        elif desktop_session.startswith("wmaker"):  # eg. wmaker-common
+            return "windowmaker"
+    if os.environ.get('KDE_FULL_SESSION') == 'true':
+        return "kde"
+    elif os.environ.get('GNOME_DESKTOP_SESSION_ID'):
+        if "deprecated" not in os.environ.get(
+                'GNOME_DESKTOP_SESSION_ID'):
+            return "gnome2"
+    # From http://ubuntuforums.org/showthread.php?t=652320
+    elif is_running("xfce-mcs-manage"):
+        return "xfce4"
+    elif is_running("ksmserver"):
+        return "kde"
+    return "unknown"
+
+
+def doit(action):
+    if action == 'shutdown':
+        run('dbus-send --system --print-reply --dest=org.freedesktop.login1 \
+/org/freedesktop/login1 "org.freedesktop.login1.Manager.PowerOff" \
+boolean:true')
+    elif action == 'hibernate':
+        run('dbus-send --system --print-reply --dest=org.freedesktop.login1 \
+/org/freedesktop/login1 "org.freedesktop.login1.Manager.Hibernate" \
+boolean:true')
+    elif action == 'suspend':
+        run('dbus-send --system --print-reply --dest=org.freedesktop.login1 \
+/org/freedesktop/login1 "org.freedesktop.login1.Manager.Suspend" \
+boolean:true')
+    elif action == 'restart':
+        run('dbus-send --system --print-reply --dest=org.freedesktop.login1 \
+/org/freedesktop/login1 "org.freedesktop.login1.Manager.Reboot" \
+boolean:true')
+    elif action == 'kill':
+        run('xkill')
+    elif action == 'logout':
+        de = get_desktop_environment()
+        if de == 'mate':
+            run('mate-session-save --logout')
+        elif de in ['budgie-desktop', 'gnome', 'unity']:
+            run('gnome-session-quit --logout --no-prompt')
+        elif de == 'cinnamon':
+            run('cinnamon-session-quit --logout --no-prompt')
+    elif action == 'lock':
+        de = get_desktop_environment()
+        if de == 'mate':
+            run('mate-screensaver-command --lock')
+        elif de in ['budgie-desktop', 'gnome', 'unity']:
+            run('gnome-screensaver-command --lock')
+        elif de == 'cinnamon':
+            run('cinnamon-screensaver-command --lock')
+    elif action == 'screensaver':
+        de = get_desktop_environment()
+        if de == 'mate':
+            run('mate-screensaver-command --activate')
+        elif de in ['budgie-desktop', 'gnome', 'unity']:
+            run('gnome-screensaver-command --activate')
+        elif de == 'cinnamon':
+            run('cinnamon-screensaver-command --activate')
+
+
+def messagedialog(title, message):
+    dialog = Gtk.MessageDialog(None,
+                               Gtk.DialogFlags.MODAL,
+                               Gtk.MessageType.INFO,
+                               buttons=Gtk.ButtonsType.OK)
+    dialog.set_markup("<b>%s</b>" % title)
+    dialog.format_secondary_markup(message)
+    dialog.run()
+    dialog.destroy()
+
+
+def main(args):
+    test_if_apps()
+    usage_msg = _('usage: %prog [options]')
+    parser = OptionParser(usage=usage_msg, add_help_option=False)
+    parser.add_option('-h', '--help',
+                      action='store_true',
+                      dest='help',
+                      default=False,
+                      help=_('show this help and exit.'))
+    parser.add_option('-c', '--shutdown',
+                      action='store_true',
+                      dest='shutdown',
+                      default=False,
+                      help=_('shutdown.'))
+    parser.add_option('-d', '--hibernate',
+                      action='store_true',
+                      dest='hibernate',
+                      default=False,
+                      help=_('hibernate'))
+    parser.add_option('-s', '--suspend',
+                      action='store_true',
+                      dest='suspend',
+                      default=False,
+                      help=_('suspend'))
+    parser.add_option('-r', '--restart',
+                      action='store_true',
+                      dest='restart',
+                      default=False,
+                      help=_('restart'))
+    parser.add_option('-k', '--kill',
+                      action='store_true',
+                      dest='kill',
+                      default=False,
+                      help=_('Kill an application'))
+    parser.add_option('-e', '--logout',
+                      action='store_true',
+                      dest='logout',
+                      default=False,
+                      help=_('logout'))
+    parser.add_option('-l', '--lock',
+                      action='store_true',
+                      dest='lock',
+                      default=False,
+                      help=_('lock the session'))
+    parser.add_option('-w', '--screensaver',
+                      action='store_true',
+                      dest='screensaver',
+                      default=False,
+                      help=_('Activate the screensaver'))
+    (options, args) = parser.parse_args()
+    print(options, args)
+    if options.help:
+        parser.print_help()
+    elif options.shutdown:
+        doit('shutdown')
+    elif options.hibernate:
+        doit('hibernate')
+    elif options.suspend:
+        doit('suspend')
+    elif options.restart:
+        doit('restart')
+    elif options.kill:
+        doit('kill')
+    elif options.logout:
+        doit('logout')
+    elif options.lock:
+        doit('lock')
+    elif options.screensaver:
+        doit('screensaver')
+    else:
+        parser.print_help()
+
+
+if __name__ == '__main__':
+    main(sys.argv)

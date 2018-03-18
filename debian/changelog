@@ -1,3 +1,10 @@
+power-commands (0.4.0-0extras18.04.0) xenial; urgency=medium
+
+  * executable in Python
+  * Added support to Cinnamon and Budgie
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 18 Mar 2018 15:26:54 +0100
+
 power-commands (0.3.0-0extras17.10.1) zesty; urgency=medium
 
   * Added support to MATE

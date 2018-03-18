@@ -1,22 +1,72 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: power-commands 0.2.3\n"
+"Project-Id-Version: power-commands 0.3.0\n"
 "Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
-"POT-Creation-Date: 2017-09-05 11:50+0200\n"
-"Language: es\n"
+"POT-Creation-Date: 2018-03-18 15:12+0100\n"
+"Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:75
+#, python-brace-format
+msgid "You have to install these package: {0}"
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:78
+#, python-brace-format
+msgid "You have to install this package: {0}"
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:217
+msgid "usage: %prog [options]"
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:223
+msgid "show this help and exit."
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:228
+msgid "shutdown."
+msgstr "Éteindre"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:233
+msgid "hibernate"
+msgstr "Hiberner"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:238
+msgid "suspend"
+msgstr "Veille"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:243
+msgid "restart"
+msgstr "Redémarrer"
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:248
+msgid "Kill an application"
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:253
+msgid "logout"
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:258
+msgid "lock the session"
+msgstr ""
+
+#: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:263
+msgid "Activate the screensaver"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:13
 msgid "Restart"
-msgstr "Reiniciar"
+msgstr "Redémarrer"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:14
 msgid "Exit session and restart"
-msgstr "Salir de la sesión y reiniciar"
+msgstr "Redémarrer"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-restart.desktop.in:16
@@ -35,75 +85,74 @@ msgstr "Salir de la sesión y reiniciar"
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:15
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:16
 msgid "Power Commands"
-msgstr "Power Commands"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:13
 msgid "Shutdown"
-msgstr "Apagar"
+msgstr "Éteindre"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-shutdown.desktop.in:14
 msgid "Exit session and shutdown"
-msgstr "Salir de la sesión y apagar"
+msgstr "Éteindre"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:13
 msgid "Log Out"
-msgstr "Salir de la sesión"
+msgstr "Log out"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-logout.desktop.in:14
 msgid "Log out without prompt"
-msgstr "Salir de la sesión sin preguntar"
+msgstr "Log out"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:12
 msgid "Kill"
-msgstr "Matar"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:13
 #: /datos/Sync/Programacion/Python/power-commands/pc-kill.desktop.in:14
 msgid "Allows you to kill a misbehaving application"
-msgstr "Permite matar una aplicación"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:13
 msgid "Hibernate"
-msgstr "Hibernar"
+msgstr "Hiberner"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-hibernate.desktop.in:14
 msgid "Put in hibernation"
-msgstr "Hibernar"
+msgstr "Mettre en hibernation"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:13
 msgid "Lock"
-msgstr "Bloquear"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-lock.desktop.in:14
 msgid "Lock with the screensaver"
-msgstr "Bloquear con el salvapantallas"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:13
 msgid "Screensaver"
-msgstr "Salvapantallas"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-screensaver-start.desktop.in:14
-#, fuzzy
 msgid "Start the screensaver"
-msgstr "Iniciar el salvapantallas"
+msgstr ""
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:11
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:13
 msgid "Suspend"
-msgstr "Suspender"
+msgstr "Veille"
 
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:12
 #: /datos/Sync/Programacion/Python/power-commands/pc-suspend.desktop.in:14
 msgid "Stop all operations and suspend"
-msgstr "Para todas las operaciones y suspende"
+msgstr "Mettre en veille"
