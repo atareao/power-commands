@@ -1,17 +1,16 @@
 [Desktop Entry]
-_Name = Restart
-_Comment = Exit session and restart
-_Keywords = Power Commands
-Exec = power-commands restart
-Icon = pc-restart
-Terminal = false
-Type = Application
-StartupNotify = true
-Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
-$Name[es] = _('Restart')
-$Comment[es] = _('Exit session and restart')
-$Name[fr] = _('Restart')
-$Comment[fr] = _('Exit session and restart')
-$Keywords[fr] = _('Power Commands')
-$Keywords[es] = _('Power Commands')
-
+_Name=Restart
+_Comment=Exit session and restart
+_Keywords=Power Commands
+Exec=power-commands --restart
+Icon=pc-restart
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+$Name[es]=_('Restart')
+$Comment[es]=_('Exit session and restart')
+$Name[fr]=_('Restart')
+$Comment[fr]=_('Exit session and restart')
+$Keywords[fr]=_('Power Commands')
+$Keywords[es]=_('Power Commands')

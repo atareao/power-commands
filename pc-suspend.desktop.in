@@ -1,17 +1,16 @@
 [Desktop Entry]
-_Name = Suspend
-_Comment = Stop all operations and suspend
-_Keywords = Power Commands
-Exec = power-commands suspend
-Icon = pc-suspend
-Terminal = false
-Type = Application
-StartupNotify = true
-Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
-$Name[es] = _('Suspend')
-$Comment[es] = _('Stop all operations and suspend')
-$Name[fr] = _('Suspend')
-$Comment[fr] = _('Stop all operations and suspend')
-$Keywords[fr] = _('Power Commands')
-$Keywords[es] = _('Power Commands')
-
+_Name=Suspend
+_Comment=Stop all operations and suspend
+_Keywords=Power Commands
+Exec=power-commands --suspend
+Icon=pc-suspend
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+$Name[es]=_('Suspend')
+$Comment[es]=_('Stop all operations and suspend')
+$Name[fr]=_('Suspend')
+$Comment[fr]=_('Stop all operations and suspend')
+$Keywords[fr]=_('Power Commands')
+$Keywords[es]=_('Power Commands')

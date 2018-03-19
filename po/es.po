@@ -1,9 +1,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: power-commands 0.3.0\n"
+"Project-Id-Version: power-commands 0.4.0\n"
 "Report-Msgid-Bugs-To: lorenzo.carbonell.cerezo@gmail.com\n"
-"POT-Creation-Date: 2018-03-18 15:12+0100\n"
+"POT-Creation-Date: 2018-03-19 08:16+0100\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,8 @@ msgid "You have to install this package: {0}"
 msgstr "Tienes que instalar este paquete: {0}"
 
 #: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:217
-msgid "usage: %prog [options]"
+#, fuzzy
+msgid "%prog [options]"
 msgstr "uso: %prog [opciones]"
 
 #: /datos/Sync/Programacion/Python/power-commands/bin/power-commands:223

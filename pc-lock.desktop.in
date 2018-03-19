@@ -1,17 +1,16 @@
 [Desktop Entry]
-_Name = Lock
-_Comment = Lock with the screensaver
-_Keywords = Power Commands
-Exec = power-commands lock
-Icon = pc-lock
-Terminal = false
-Type = Application
-StartupNotify = true
-Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
-$Name[es] = _('Lock')
-$Comment[es] = _('Lock with the screensaver')
-$Name[fr] = _('Lock')
-$Comment[fr] = _('Lock with the screensaver')
-$Keywords[fr] = _('Power Commands')
-$Keywords[es] = _('Power Commands')
-
+_Name=Lock
+_Comment=Lock with the screensaver
+_Keywords=Power Commands
+Exec=power-commands --lock
+Icon=pc-lock
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+$Name[es]=_('Lock')
+$Comment[es]=_('Lock with the screensaver')
+$Name[fr]=_('Lock')
+$Comment[fr]=_('Lock with the screensaver')
+$Keywords[fr]=_('Power Commands')
+$Keywords[es]=_('Power Commands')

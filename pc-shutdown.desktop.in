@@ -1,17 +1,16 @@
 [Desktop Entry]
-_Name = Shutdown
-_Comment = Exit session and shutdown
-_Keywords = Power Commands
-Exec = power-commands shutdown
-Icon = pc-shutdown
-Terminal = false
-Type = Application
-StartupNotify = true
-Categories = GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
-$Name[es] = _('Shutdown')
-$Comment[es] = _('Exit session and shutdown')
-$Name[fr] = _('Shutdown')
-$Comment[fr] = _('Exit session and shutdown')
-$Keywords[fr] = _('Power Commands')
-$Keywords[es] = _('Power Commands')
-
+_Name=Shutdown
+_Comment=Exit session and shutdown
+_Keywords=Power Commands
+Exec=power-commands --shutdown
+Icon=pc-shutdown
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-GNOME-Settings-Panel
+$Name[es]=_('Shutdown')
+$Comment[es]=_('Exit session and shutdown')
+$Name[fr]=_('Shutdown')
+$Comment[fr]=_('Exit session and shutdown')
+$Keywords[fr]=_('Power Commands')
+$Keywords[es]=_('Power Commands')

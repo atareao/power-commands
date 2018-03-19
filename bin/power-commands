@@ -56,10 +56,10 @@ def test_if_apps():
     de = get_desktop_environment()
     packages_not_installed = []
     if de == 'mate':
-        if not is_package_installed('mate-session'):
+        if not is_package_installed('mate-session-manager'):
             packages_not_installed.append('mate-session')
-        if not is_package_installed('mate-screensaver'):
-            packages_not_installed.append('gnome-screensaver')
+        if not is_package_installed('mate-screensaver-manager'):
+            packages_not_installed.append('mate-screensaver')
     elif de == 'cinnamon':
         if not is_package_installed('cinnamon-session'):
             packages_not_installed.append('cinnamon-session')
@@ -214,7 +214,7 @@ def messagedialog(title, message):
 
 def main(args):
     test_if_apps()
-    usage_msg = _('usage: %prog [options]')
+    usage_msg = _('%prog [options]')
     parser = OptionParser(usage=usage_msg, add_help_option=False)
     parser.add_option('-h', '--help',
                       action='store_true',
@@ -261,8 +261,8 @@ def main(args):
                       dest='screensaver',
                       default=False,
                       help=_('Activate the screensaver'))
-    (options, args) = parser.parse_args()
-    print(options, args)
+    (options, args) = parser.parse_args(args)
+    # print(options, args)
     if options.help:
         parser.print_help()
     elif options.shutdown:
