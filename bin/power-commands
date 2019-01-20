@@ -58,7 +58,7 @@ def test_if_apps():
     if de == 'mate':
         if not is_package_installed('mate-session-manager'):
             packages_not_installed.append('mate-session')
-        if not is_package_installed('mate-screensaver-manager'):
+        if not is_package_installed('mate-screensaver'):
             packages_not_installed.append('mate-screensaver')
     elif de == 'cinnamon':
         if not is_package_installed('cinnamon-session'):
