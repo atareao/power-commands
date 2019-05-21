@@ -183,6 +183,8 @@ boolean:true')
             run('gnome-session-quit --logout --no-prompt')
         elif de == 'cinnamon':
             run('cinnamon-session-quit --logout --no-prompt')
+        elif de == 'kde':
+            run('qdbus org.kde.ksmserver /KSMServer logout 0 3 3')
     elif action == 'lock':
         de = get_desktop_environment()
         if de == 'mate':
@@ -191,6 +193,8 @@ boolean:true')
             run('gnome-screensaver-command --lock')
         elif de == 'cinnamon':
             run('cinnamon-screensaver-command --lock')
+        else:
+            run('gdbus org.freedesktop.ScreenSaver /ScreenSaver Lock')
     elif action == 'screensaver':
         de = get_desktop_environment()
         if de == 'mate':
@@ -199,6 +203,9 @@ boolean:true')
             run('gnome-screensaver-command --activate')
         elif de == 'cinnamon':
             run('cinnamon-screensaver-command --activate')
+        else:
+            run('qdbus org.freedesktop.ScreenSaver /ScreenSaver '
+                'org.freedesktop.ScreenSaver.SetActive True')
 
 
 def messagedialog(title, message):
